@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e0f7fa;
+    color: #00695c;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #004d40;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #00796b;
+    margin-bottom: 20px;
+}
+
+.section, .impact-block {
+    background: #ffffff;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.impact-block {
+    display: inline-block;
+    width: 22%;
+    margin: 0 1%;
+    text-align: center;
+    background: #e0f7fa;
+    vertical-align: top;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: 500;
+    color: #00796b;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #80deea;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-size: 1em;
+    color: #00695c;
+    box-sizing: border-box;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #4dd0e1;
+    background-color: #ffffff;
+}
+
+button {
+    display: block;
+    width: 250px;
+    margin: 20px auto;
+    background-color: #4dd0e1;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #26c6da;
+}
+
+#result, #offsets, #comparison, #charts, #impact-analysis {
+    margin-top: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 15px;
+    border: 1px solid #b2dfdb;
+}
+
+.chart-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+canvas {
+    max-width: 400px;
+    height: 400px;
+    margin: 10px;
+}
+
+.emoji-header {
+    text-align: center;
+    font-size: 3.5em;
+    margin-bottom: 15px;
+}
+
+.date-time {
+    text-align: center;
+    font-size: 1.2em;
+    color: #00796b;
+    margin-top: 10px;
+}
